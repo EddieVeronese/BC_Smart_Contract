@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { loadFixture } = require("@nomicfoundation/hardhat-toolbox/network-helpers");
 const { ethers } = require("hardhat");
-console.log(ethers.utils.parseEther("0.1"));
+
 
 describe("EventManager contract", function () {
   async function deployEventManagerFixture() {
